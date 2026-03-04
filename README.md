@@ -62,6 +62,7 @@ How to Run Locally
 3. Run the application: streamlit run app.py
 
 Repository Structure
+
 app.py
 requirements.txt
 README.md
