@@ -1,5 +1,3 @@
-# app.py - Main Streamlit UI: tabs, sidebar, upload, charts, audit export
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -160,3 +158,4 @@ if __name__ == "__main__":
     main.configure_page()
     main.apply_theme()
     run_app()
+
