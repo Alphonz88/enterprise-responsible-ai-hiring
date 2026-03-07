@@ -97,31 +97,41 @@ HR Dashboard + Audit Report
 
 ---
 
-## How to Run Locally
+## How to Run the Project
 
-### 1. Clone the Repository
+### Step 1: Download the Project
 
-Open your terminal or command prompt and run:
+1. Open the GitHub repository:
+   https://github.com/Alphonz88/enterprise-responsible-ai-hiring
 
-git clone https://github.com/Alphonz88/enterprise-responsible-ai-hiring.git
+2. Click the **Code** button.
+
+3. Select **Download ZIP**.
+
+4. Extract the downloaded ZIP file to your computer.
 
 ---
 
-### 2. Navigate to the Project Folder
+### Step 2: Open the Project Folder
+
+Open the extracted folder in **Command Prompt / Terminal**.
+
+Example:
 
 cd enterprise-responsible-ai-hiring
 
 ---
 
-### 3. Install Required Dependencies
+### Step 3: Install Required Libraries
 
-Make sure Python is installed, then run:
+Make sure **Python is installed** on your system.
+Then install the required dependencies using:
 
 pip install -r requirements.txt
 
 ---
 
-### 4. Launch the Application
+### Step 4: Run the Application
 
 Start the Streamlit web application:
 
@@ -129,33 +139,35 @@ streamlit run app.py
 
 ---
 
-### 5. Open the Web Interface
+### Step 5: Open the Web Application
 
-After running the command, Streamlit will automatically open in your browser.
+After running the command, Streamlit will open automatically in your browser.
+
 
 ---
 
-### 6. Upload Resume Dataset
+### Step 6: Upload Resume Dataset
 
 Upload a CSV file containing resumes.
+
 You can also use the provided sample dataset:
 
 AI_Resume_Screening.csv
 
 ---
 
-### 7. View AI Evaluation Results
+### Step 7: View AI Screening Results
 
 The system will:
 
-• Automatically detect resume text columns
+• Automatically detect the resume text column
 • Calculate weighted skill scores
-• Categorize candidates into Selected / Review / Rejected
-• Display results on the HR dashboard
+• Categorize candidates into **Selected / Review / Rejected**
+• Display results in the HR dashboard
 
 ---
 
-### 8. Download Audit Report
+### Step 8: Download the Audit Report
 
 Click the **Download Results** button to export the candidate evaluation report as a CSV file.
 
