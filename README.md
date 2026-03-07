@@ -99,23 +99,66 @@ HR Dashboard + Audit Report
 
 ## How to Run Locally
 
-Clone the repository:
+### 1. Clone the Repository
 
-```
-git clone https://github.com/Alphonz88/enterprise-responsible-ai-hiring
-```
+Open your terminal or command prompt and run:
 
-Install dependencies:
+git clone https://github.com/Alphonz88/enterprise-responsible-ai-hiring.git
 
-```
+---
+
+### 2. Navigate to the Project Folder
+
+cd enterprise-responsible-ai-hiring
+
+---
+
+### 3. Install Required Dependencies
+
+Make sure Python is installed, then run:
+
 pip install -r requirements.txt
-```
 
-Run the application:
+---
 
-```
+### 4. Launch the Application
+
+Start the Streamlit web application:
+
 streamlit run app.py
-```
+
+---
+
+### 5. Open the Web Interface
+
+After running the command, Streamlit will automatically open in your browser.
+
+---
+
+### 6. Upload Resume Dataset
+
+Upload a CSV file containing resumes.
+You can also use the provided sample dataset:
+
+AI_Resume_Screening.csv
+
+---
+
+### 7. View AI Evaluation Results
+
+The system will:
+
+• Automatically detect resume text columns
+• Calculate weighted skill scores
+• Categorize candidates into Selected / Review / Rejected
+• Display results on the HR dashboard
+
+---
+
+### 8. Download Audit Report
+
+Click the **Download Results** button to export the candidate evaluation report as a CSV file.
+
 
 ---
 
