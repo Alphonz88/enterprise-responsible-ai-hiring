@@ -1,7 +1,5 @@
 # Enterprise Responsible AI Hiring System
 
-### AI4Dev '26 Hackathon Submission
-
 **Domain:** Responsible AI & Resource Optimization
 
 ---
